@@ -11,6 +11,7 @@
 //  });
 
 // app.listen(4300);
+
 /* without routes above */
 
 // var express = require('express');
@@ -25,10 +26,13 @@
 
 // /* above for adding routes */
 
-var express = require('express');
-var app = express();
+// var express = require('express');
+// var app = express();
 
-app.get('/:id', function(req, res){
-   res.send('The id you specified is ' + req.params.id);
-});
-app.listen(4600);
+// app.get('/:id', function(req, res){
+//    res.send('The id you specified is ' + req.params.id);
+// });
+// app.listen(4600);
+
+/* above for passing dynamic data in url */
+
